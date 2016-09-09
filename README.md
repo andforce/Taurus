@@ -1,6 +1,7 @@
 # Pull-to-Refresh.Tours
+[![Yalantis](https://raw.githubusercontent.com/Yalantis/Taurus/master/badge_dark.png)](https://yalantis.com/?utm_source=github)
 
-This project aims to provide a simple and customizable pull to refresh implementation. Made in [Yalantis] (http://yalantis.com/)
+This project aims to provide a simple and customizable pull to refresh implementation.
 
 Check this [project on Behance] (https://www.behance.net/gallery/20411445/Mobile-Animations-Interactions)  
 Check this [project on Dribbble] (https://dribbble.com/shots/1623131-Pull-to-Refresh)
@@ -55,6 +56,12 @@ If you need to change progress state:
 ```java
 	mPullToRefreshView.setRefreshing(boolean isRefreshing)
 ```
+
+##Installing with [Gradle](http://gradle.org/)
+```groovy
+compile 'com.yalantis:pulltorefresh:1.0.0'
+```
+
 #Compatibility
   
   * Android HONEYCOMB 3.0+
@@ -65,6 +72,13 @@ If you need to change progress state:
 
   * Initial Build
   
+
+#### Let us know!
+
+We’d be really happy if you sent us links to your projects where you use our component. Just send an email to github@yalantis.com And do let us know if you have any questions or suggestion regarding the animation. 
+
+P.S. We’re going to publish more awesomeness wrapped in code and a tutorial on how to make UI for Android (iOS) better than better. Stay tuned!
+
 ## License
 
     Copyright 2015, Yalantis
